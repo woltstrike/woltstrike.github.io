@@ -2,3 +2,15 @@ baseURL = 'https://woltstrike.github.io/'
 languageCode = 'en-us'
 title = 'Wolt Strike Cyprus'
 theme = 'PaperMod'
+
+[params]
+description = "Letter from Wolt courier partners in Cyprus torwards their management"
+# cover = "images/cover.png"
+##save the image you want to use as background picture in directory "./static/images"
+author = "Wolt courier partners"
+authorlocation = "Nicosia, Cyprus"
+# logo = "images/logo.png"
+##save the image you want to use as website logo in directory "./static/images"
+email = "woltstrike@proton.me"
+
+hideHUGOSupport = false

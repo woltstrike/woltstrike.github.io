@@ -2,7 +2,7 @@
 title: "Letter to management"
 ---
 
-Following is the letter the Wolt courier partners wrote torwards the managment.
+Following is the letter the Wolt courier partners wrote torwards the management.
 
 {{< letter >}}
 

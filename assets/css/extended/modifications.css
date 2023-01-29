@@ -1,0 +1,4 @@
+.profile>.profile_inner>img {
+    border-radius: var(--radius);
+    border: thick solid var(--content);
+}

@@ -60,13 +60,13 @@ email = "woltstrike@proton.me"
 hideHUGOSupport = false
 
 [params.profileMode]
-enabled = true               # needs to be explicitly set
+enabled = true                                                                                                    # needs to be explicitly set
 title = "Wolt Strike Cyprus"
 subtitle = "Documenting the events of the strike from the Wolt Courier Partners in Cyprus"
-imageUrl = "../static/img/wolt-strike.jpg"
-# imageWidth = 120
-# imageHeight = 120
-# imageTitle = "Image depicting Wolt Courier Partners striking while holding up a banner with the text Wolt Strike"
+imageUrl = "https://raw.githubusercontent.com/woltstrike/woltstrike.github.io/main/static/img/wolt-strike.jpg"
+imageWidth = "auto"
+imageHeight = "auto"
+imageTitle = "Image depicting Wolt Courier Partners striking while holding up a banner with the text Wolt Strike"
 [[params.profileMode.buttons]]
 name = "Letter to management"
 url = "letter-to-management"
@@ -80,13 +80,13 @@ Text = "Suggest Changes"                                                     # e
 appendFilePath = true                                                        # to append file path to Edit link
 
 [[menu.main]]
-identifier = "timeline"
-name = "Timeline"
-url = "/timeline/"
-weight = 10
-
-[[menu.main]]
 identifier = "letter-to-management"
 name = "Letter to Management"
 url = "/letter-to-management/"
+weight = 10
+
+[[menu.main]]
+identifier = "timeline"
+name = "Timeline"
+url = "/timeline/"
 weight = 20

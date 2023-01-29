@@ -1,6 +1,10 @@
 ---
-title: "Wolt Strike Cyprus"
+title: "Letter to management"
 ---
+
+Following is the letter the Wolt courier partners wrote torwards the managment.
+
+{{< letter >}}
 
 To the management team,
 
@@ -33,3 +37,5 @@ Looking for your positive response.
 Thank you.
 
 Wolt courier partners, Nicosia
+
+{{< /letter >}}

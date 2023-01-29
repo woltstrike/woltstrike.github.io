@@ -1,0 +1,92 @@
+baseURL = "https://woltstrike.github.com/"
+
+title = 'Wolt Strike Cyprus'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+enableEmoji = true
+languageCode = 'en-us'
+defaultContentLangage = 'en'
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+title = 'Wolt Strike Cyprus'
+description = "Documenting the events of the strike from the Wolt Courier Partners in Cyprus"
+keywords = [
+    'wolt',
+    "strike",
+    "cyprus",
+    "delivery",
+    "courier",
+    "partners",
+    'WOLT',
+    "STRIKE",
+    "CYPRUS",
+    "DELIVERY",
+    "COURIER",
+    "PARTNERS",
+]
+
+author = ""         # fill in later
+authorlocation = "" # fill in later
+
+DateFormat = "2023-01-01"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+email = "woltstrike@proton.me"
+hideHUGOSupport = false
+
+[params.profileMode]
+enabled = true               # needs to be explicitly set
+title = "Wolt Strike Cyprus"
+subtitle = "Documenting the events of the strike from the Wolt Courier Partners in Cyprus"
+imageUrl = "../static/img/wolt-strike.jpg"
+# imageWidth = 120
+# imageHeight = 120
+# imageTitle = "Image depicting Wolt Courier Partners striking while holding up a banner with the text Wolt Strike"
+[[params.profileMode.buttons]]
+name = "Letter to management"
+url = "letter-to-management"
+[[params.profileMode.buttons]]
+name = "Timeline"
+url = "timeline"
+
+[params.editPost]
+URL = "https://github.com/woltstrike/woltstrike.github.io/tree/main/content"
+Text = "Suggest Changes"                                                     # edit text
+appendFilePath = true                                                        # to append file path to Edit link
+
+[[menu.main]]
+identifier = "timeline"
+name = "Timeline"
+url = "/timeline/"
+weight = 10
+
+[[menu.main]]
+identifier = "letter-to-management"
+name = "Letter to Management"
+url = "/letter-to-management/"
+weight = 20

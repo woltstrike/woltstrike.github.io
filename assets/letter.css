@@ -1,0 +1,7 @@
+.letter {
+    padding: 2rem;
+    border: thin solid var(--content);
+    border-radius: 0.2ch;
+    box-shadow: 0 0em 4rem 1rem rgba(0, 0, 0, 0.05);
+    margin: calc(3 * var(--gap)) auto;
+}

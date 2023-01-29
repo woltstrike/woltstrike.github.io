@@ -1,0 +1,14 @@
+<div class="timeline">
+    <div class="outer">
+        {{ range .Site.Data.timeline }}
+        <div class="card">
+            <div class="info">
+                <h3 class="title">Day {{ .day }}: {{ .date }}</h3>
+                {{ range .text }}
+                <p>{{ . }}</p>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
